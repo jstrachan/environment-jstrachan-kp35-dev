@@ -1,0 +1,33 @@
+apiVersion: v1
+data:
+  ca.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDDDCCAfSgAwIBAgIRAKtCvT28eatltDv+YXctrB8wDQYJKoZIhvcNAQELBQAw
+    LzEtMCsGA1UEAxMkZTAyOGEzMDYtMGEzMi00YWI0LTg0NWQtZmUwMmI4OGUxZGUw
+    MB4XDTE5MDIyNjA4MDczNFoXDTI0MDIyNTA5MDczNFowLzEtMCsGA1UEAxMkZTAy
+    OGEzMDYtMGEzMi00YWI0LTg0NWQtZmUwMmI4OGUxZGUwMIIBIjANBgkqhkiG9w0B
+    AQEFAAOCAQ8AMIIBCgKCAQEAsGOmH8SIWQTSN4wM6t4zqWrqx/buWyRnsWJ72EsL
+    RWi9DsRWWfHLjF449QZ+PTichb6Uesn2s/J2txhgYCPDlPqe9XBqRAHyPXsjsY6E
+    aNIwgEdKA2UOgpvW4Lf22xbUThF0xFNw/ySDpYZVD+sLo7retA5jzjIfiipvG89j
+    W+NA6XdVe+PRrE3GarFcLbHB92twz9Tb5iVmIRD3z//aoI9vbRhU5zzCr8En7lE8
+    z4gH2JrakDbE+y5HrwUYMGK0/WbwTFpLQUcrUltudS7JvRWzFec/2n7pDfJJgSrC
+    DrNoovc5harb8anLqml16QdMoXsVJ5pi4mapM0ITf9f6AwIDAQABoyMwITAOBgNV
+    HQ8BAf8EBAMCAgQwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEA
+    Eed92Wu1hQAGtMTs+JWE2s7LGoQc7cr6fgPba2Bl/SxXMz59tudPQMGG0vMsMqXb
+    j64FYQClyjRrVZAOFRAkl4JxArPe118LlSYfvk/NRh5Ji/XMqqt4B+XeqUEbsbkv
+    porej28slH7aS71wmwBRfPpdMCIEEihiFfEbLVFaDh60Og1KavOfuiNyJGOcJbU5
+    ECWT81GJru3fWpT4BAG7ia+gHqSCQVmYibZ7YO3Jm2mEgQJaxOvBrbB1mgKUnWTJ
+    k6DUrcPro2GM+daqfnhX0Gk1SieffnOU5052VXTmEBMHYTMozJ/AqZU8tLdP6Zm2
+    k5H3siyPAg3OvM8ejxQNMw==
+    -----END CERTIFICATE-----
+  clusterName: jstrachan-kp35
+  jx-install-version: 1.3.929-dev+f65c32b35
+  kubeProvider: gke
+  projectID: jenkinsx-dev
+  secretsLocation: vault
+  server: https://35.240.107.124
+  zone: europe-west1-c
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: jx-install-config
